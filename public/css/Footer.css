@@ -1,0 +1,30 @@
+footer {
+  position: fixed;
+  bottom: -1.7vw;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 1vw 0;
+  width: 100%;
+  text-transform: uppercase;
+  font-size: 0.9vw;
+  text-align: center;
+}
+
+footer a {
+  text-decoration: none;
+}
+@media screen and (max-width: 900px) {
+  footer {
+    bottom: -2.5vw;
+    font-size: 1.3vw;
+    padding: 1.5vw 0;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  footer {
+    font-size: 2.8vw;
+    bottom: -5.2vw;
+    padding: 3vw 0;
+  }
+}

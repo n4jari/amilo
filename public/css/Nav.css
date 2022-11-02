@@ -1,0 +1,37 @@
+nav {
+  position: sticky;
+  z-index: 1;
+  top: 0;
+  text-align: center;
+  margin: 0 auto 3% auto;
+  padding: 1vw 0;
+}
+nav a {
+  display: inline-block;
+  text-align: center;
+  padding: 0 1vw;
+}
+nav a:hover {
+  opacity: 0.7;
+}
+
+@media screen and (max-width: 900px) {
+  nav {
+    margin: 0 auto 4% auto;
+    padding: 1.5vw 0;
+  }
+  nav a {
+    padding: 0 1.5vw;
+    font-size: 1.7vw;
+  }
+}
+@media screen and (max-width: 600px) {
+  nav {
+    margin: 0 auto 8% auto;
+    padding: 2vw 0;
+  }
+  nav a {
+    padding: 1vw 2vw;
+    font-size: 3.8vw;
+  }
+}

@@ -1,0 +1,80 @@
+.buy .card-text,
+.buy .card-footer a {
+  font-size: 1.2vw;
+  text-decoration: none;
+}
+.buy .card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.buy .card-footer a:hover {
+  color: goldenrod !important;
+}
+
+.buy .modal-dialog-scrollable {
+  padding: 0 2vw;
+  font-size: 1.5vw;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: justify;
+  direction: rtl;
+}
+
+.buy audio {
+  height: 2vw;
+  width: 75%;
+  opacity: 0.8;
+}
+
+@media screen and (max-width: 900px) {
+  .buy .card-title {
+    font-size: 2.3vw;
+  }
+
+  .buy .card-text,
+  .buy .card-footer a {
+    font-size: 1.7vw;
+  }
+
+  .buy .card-footer {
+    display: block;
+  }
+  .buy .card-footer button {
+    margin-bottom: 2vw;
+    width: 100%;
+  }
+
+  .buy audio {
+    height: 2.5vw;
+    width: 100%;
+  }
+  .buy .modal-dialog-scrollable {
+    padding: 0 4vw;
+    font-size: 1.8vw;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .buy .card-title {
+    font-size: 6vw;
+  }
+  .buy .card-text,
+  .buy .card-footer a {
+    font-size: 4.5vw;
+  }
+
+  .buy .modal-dialog-scrollable {
+    padding: 2vw 4vw;
+    font-size: 4vw;
+  }
+
+  .buy .card-footer button {
+    margin-bottom: 3vw;
+    padding: 2vw 0;
+  }
+
+  .buy audio {
+    height: 7vw;
+  }
+}

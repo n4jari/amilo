@@ -1,0 +1,27 @@
+.banner img {
+  filter: grayscale(100%);
+  width: 35vw;
+  border-radius: 5px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 1);
+  height: 35vw;
+  display: block;
+  margin: 3% auto;
+}
+.banner img:hover {
+  filter: grayscale(0);
+}
+
+@media screen and (max-width: 900px) {
+  .banner img {
+    width: 55vw;
+    height: 55vw;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .banner img {
+    width: 80vw;
+    height: 80vw;
+    margin: 10% auto;
+  }
+}
