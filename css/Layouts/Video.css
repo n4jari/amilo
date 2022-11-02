@@ -1,0 +1,46 @@
+.video .box video {
+  padding: 1vw;
+  filter: grayscale(50%);
+}
+
+.video .box .content h4 {
+  font-size: 1.4vw !important;
+}
+
+.video .box .content p {
+  font-size: 1.2vw !important;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@media screen and (max-width: 900px) {
+  .video {
+    padding: 0 !important;
+  }
+
+  .video .box .content h4 {
+    font-size: 1.8vw !important;
+  }
+
+  .video .box .content p {
+    font-size: 1.6vw !important;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .video {
+    padding: 0 3% !important;
+  }
+  .video .box video {
+    padding: 3vw;
+  }
+
+  .video .box .content h4 {
+    font-size: 5vw !important;
+  }
+
+  .video .box .content p {
+    font-size: 4.6vw !important;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+}
