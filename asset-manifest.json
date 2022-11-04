@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/amilo/static/css/main.3c1c573a.css",
-    "main.js": "/amilo/static/js/main.f10117d2.js",
+    "main.js": "/amilo/static/js/main.134bdc58.js",
     "static/media/TeaserYemen.mp4": "/amilo/static/media/TeaserYemen.589aaca2ba49a46283c5.mp4",
     "static/media/amilo-bodan-ya-nabodan.mp3": "/amilo/static/media/amilo-bodan-ya-nabodan.9690d396bcc5a7b5bd9b.mp3",
     "static/media/amilo-enfejar.mp3": "/amilo/static/media/amilo-enfejar.c3043f81cc5f1879c162.mp3",
@@ -36,10 +36,10 @@
     "static/media/Cover-Amilo-KhoninShahr.jpg": "/amilo/static/media/Cover-Amilo-KhoninShahr.a1d735b04014746fcb9e.jpg",
     "index.html": "/amilo/index.html",
     "main.3c1c573a.css.map": "/amilo/static/css/main.3c1c573a.css.map",
-    "main.f10117d2.js.map": "/amilo/static/js/main.f10117d2.js.map"
+    "main.134bdc58.js.map": "/amilo/static/js/main.134bdc58.js.map"
   },
   "entrypoints": [
     "static/css/main.3c1c573a.css",
-    "static/js/main.f10117d2.js"
+    "static/js/main.134bdc58.js"
   ]
 }
